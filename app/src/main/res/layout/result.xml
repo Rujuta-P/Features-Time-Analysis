@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="50dp">
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView22"/>
+    <TextView
+            android:text="Result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView23" android:textSize="30sp"
+            android:textStyle="bold" android:textAlignment="center" android:fontFamily="@font/average"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView24" android:textSize="18sp"/>
+    <TextView
+            android:text="Time taken "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView25" android:textStyle="bold"
+            android:textAlignment="center" android:textSize="24sp"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView26"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/resview1" android:textSize="18sp"
+            android:textStyle="bold"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView32" android:textSize="36sp"/>
+    <Button
+            android:text="Retry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/btnretry" android:textSize="24sp"
+            android:fontFamily="@font/average"/>
+</LinearLayout>

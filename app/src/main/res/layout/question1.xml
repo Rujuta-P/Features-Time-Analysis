@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:id="@+id/quest1.1"
+              android:padding="50dp">
+
+    <TextView
+            android:text="Question 1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/quest1" android:textSize="30sp"
+            android:textStyle="bold"
+            android:padding="15dp"/>
+
+    android:textAlignment="center" android:fontFamily="@font/average" android:gravity="center"/>
+    <TextView
+            android:text="Is this your back pack?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView1" android:textAlignment="center"
+            android:gravity="center" android:textSize="24sp" android:fontFamily="@font/average"/>
+
+
+    <RadioGroup
+            android:id="@+id/options"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+    <RadioButton
+            android:text="No, it's my brother's."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/radioButton1.1" android:textSize="18sp"
+            android:textAlignment="textStart" android:gravity="center" android:fontFamily="@font/average"
+            android:padding="15dp"/>
+    <RadioButton
+            android:text="No, it's Toms'"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/radioButton1.2" android:textSize="18sp"
+            android:textAlignment="textStart" android:gravity="center" android:fontFamily="@font/average"
+            android:padding="15dp"/>
+    <RadioButton
+            android:text="No, it's my friends's"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/radioButton1.3" android:textSize="18sp"
+            android:textAlignment="textStart" android:gravity="center" android:fontFamily="@font/average"
+            android:padding="15dp"/>
+    </RadioGroup>
+
+    <Button
+            android:text="Next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/btnnext1" android:textSize="24sp"
+            android:fontFamily="@font/average"
+            android:padding="15dp"/>
+</LinearLayout>
